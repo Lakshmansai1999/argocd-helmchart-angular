@@ -6,8 +6,8 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: <your-git-repo-url>
-    targetRevision: main
+    repoURL: https://github.com/Lakshmansai1999/argocd-helmchart-angular.git
+    targetRevision: master
     path: angular-app
   destination:
     server: https://kubernetes.default.svc
